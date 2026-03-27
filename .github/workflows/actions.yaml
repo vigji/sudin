@@ -39,3 +39,25 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run check
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: [build, check]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Deploy via SFTP
+        run: |
+          sudo apt-get install -y -qq lftp
+          lftp -u "$SFTP_USER","$SFTP_PASSWORD" -e "set sftp:auto-confirm yes; mirror -R --delete --verbose dist/ /ftp/sudin.org/; quit" sftp://$SFTP_HOST
+        env:
+          SFTP_HOST: ${{ secrets.SFTP_HOST }}
+          SFTP_USER: ${{ secrets.SFTP_USER }}
+          SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
