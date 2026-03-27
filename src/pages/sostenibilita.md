@@ -8,15 +8,16 @@ showHero: false
 
 Fin dalle origini è stata ritenuta fondamentale l’autosostenibilità complessiva del progetto; accanto ai servizi offerti in ambito formativo sono state quindi sviluppate attività economiche locali in grado di contribuire al sostentamento della scuola.
 Le attività si articolano in tre ambiti principali:
- - **Realizzazione di pozzi** 
-    - in questi anni sono stati perforati oltre 50 pozzi, contribuendo in modo significativo a risolvere il problema dell’approvvigionamento idrico di numerosi villaggi e comunità;
-    - committenti: Diocesi di Rumbek, Obakki foundation (Canada), Sacerdoti coreani della parrocchia di Cueibet.
- - **Realizzazione di costruzioni ed edifici**
-    - sala chirurgica dell’ospedale di rumbek (realizzata per conto di Unops);
-    - numerosi edifici per accogliere i profughi, aule scolastiche e altre costruzioni a favore delle comunità locali, (per conto di Cefa, Unicef, UNHCR).
+
+- **Realizzazione di pozzi**
+  - in questi anni sono stati perforati oltre 50 pozzi, contribuendo in modo significativo a risolvere il problema dell’approvvigionamento idrico di numerosi villaggi e comunità;
+  - committenti: Diocesi di Rumbek, Obakki foundation (Canada), Sacerdoti coreani della parrocchia di Cueibet.
+- **Realizzazione di costruzioni ed edifici**
+  - sala chirurgica dell’ospedale di rumbek (realizzata per conto di Unops);
+  - numerosi edifici per accogliere i profughi, aule scolastiche e altre costruzioni a favore delle comunità locali, (per conto di Cefa, Unicef, UNHCR).
 - **Attività agricole**
-    - orti destinati all’alimentazione dei ragazzi e del personale del centro di formazione;
-    - nel corso del 2024 è stato avviata una collaborazione con AVSI per coltivare anche riso e sorgo.
+  - orti destinati all’alimentazione dei ragazzi e del personale del centro di formazione;
+  - nel corso del 2024 è stato avviata una collaborazione con AVSI per coltivare anche riso e sorgo.
 
 Queste attività sono svolte da un’impresa benefit locale, gestito da Sudin, che destina tutti i profitti al sostegno delle attività della scuola. Nelle sue iniziative vengono coinvolti lavoratori del territorio, contribuendo in maniera significativa allo sviluppo economico locale. Con la realizzazione del nuovo progetto di scuola tecnica professionale, gli studenti potranno svolgere tirocini (stage) durante il percorso scolastico e avere accesso a un primo impiego.
 
@@ -31,7 +32,6 @@ Inoltre, all'interno del centro sono stati sviluppati diversi corsi diretti alla
 - Un corso di inglese
 - Un corso di igiene di base
 - Corsi di parenting support
-
 
 ## Autonomia energetica
 

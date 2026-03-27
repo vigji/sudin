@@ -4,7 +4,6 @@ layout: '~/layouts/MarkdownLayout.astro'
 showHero: false
 ---
 
-
 ## Il progetto
 
 L'Ireneo Dud Vocational Training Centre (IDVTC) è il primo e principale progetto realizzato da SUDIN. Si tratta di una scuola professionale situata a Barghel, un villaggio rurale di circa 1000 abitanti nella Contea di Cueibet, nello Stato dei Laghi del Sud Sudan.
@@ -18,8 +17,9 @@ La scuola è insertia nella rete del dipartimento dell’educazione della Dioces
 ### Le classi
 
 Non appena istituito, il centro di formazione professionale ospitava tre corsi di scuola primaria (P):
+
 - **Classe P6** - equivalente alla prima media italiana
-- **Classe P7** - equivalente alla seconda media italiana  
+- **Classe P7** - equivalente alla seconda media italiana
 - **Classe P8** - equivalente alla terza media italiana
 
 Da giugno 2025 è stata introdotta introdotta la **classe Senior 1**, equivalente al primo anno di istruzione secondaria di secondo grado.
@@ -30,9 +30,9 @@ L’Ireneo Dud foundation è una scuola privata riconosciuta dal Ministero per l
 
 All'insegnamento delle materie classiche (inglese, matematica, scienze, studi sociali, geografia, storia e religione) si affianca corsi tecnico-pratici nei seguenti ambiti:
 
-- **Costruzione** 
-- **Agricoltura** 
-- **Tessitura** 
+- **Costruzione**
+- **Agricoltura**
+- **Tessitura**
 
 ## I risultati
 
@@ -43,18 +43,18 @@ Il numero dei diplomandi è in continua crescita nel corso degli anni.
 
 ## Il nuovo progetto
 
-Quando è nato, l'IDVTC serviva una Regione in cui la formazione primaria era pressocché inesistente. Con il passare del tempo, sempre più ragazzi hanno ora accesso alle scuole primarie gestite dalle autorità locali. Aumenta dunque la richiesta per la formazione secondaria, le classi dalla P9 alla P12, equivalenti alle scuole superiori italiane. L’IDTVC si è trasformato in una scuola tecnica superiore con l’introduzione progressiva dei corsi fino alla P12. 
+Quando è nato, l'IDVTC serviva una Regione in cui la formazione primaria era pressocché inesistente. Con il passare del tempo, sempre più ragazzi hanno ora accesso alle scuole primarie gestite dalle autorità locali. Aumenta dunque la richiesta per la formazione secondaria, le classi dalla P9 alla P12, equivalenti alle scuole superiori italiane. L’IDTVC si è trasformato in una scuola tecnica superiore con l’introduzione progressiva dei corsi fino alla P12.
 
 Da giugno 2025, quindi, è stata avviata la classe P9, che vedrà iscritti 52 nuovi studenti.
 
 ### Studenti attualmente iscritti
 
-| Classi | Studentesse | Studenti | Totale iscritti |
-|--------|-------------|----------|-----------------|
-| P7     | 22          | 43       | 65              |
-| P8     | 14          | 33       | 47              |
-| P9     | 18          | 34       | 52              |
-| **Totale** | **54** | **110** | **164**         |
+| Classi     | Studentesse | Studenti | Totale iscritti |
+| ---------- | ----------- | -------- | --------------- |
+| P7         | 22          | 43       | 65              |
+| P8         | 14          | 33       | 47              |
+| P9         | 18          | 34       | 52              |
+| **Totale** | **54**      | **110**  | **164**         |
 
 Per adeguare alle nuove necessità il centro formativo si prevede la realizzazione di nuove aule, di due dormitori, il nuovo refettorio, un’aula per gli insegnanti e la biblioteca. Queste nuove infrastrutture verranno realizzate a partire da settembre 2025
 
@@ -62,7 +62,7 @@ Per adeguare alle nuove necessità il centro formativo si prevede la realizzazio
 
 Per rendere possibile la trasformazione dell’IDVTC in scuola tecnica superiore e garantire l’accesso alle studentesse provenienti dai villaggi più lontani, è prevista la costruzione di un nuovo dormitorio femminile. Attualmente solo 13 delle 34 ragazze frequentanti l’istituto hanno la possibilità di alloggiare presso le strutture scolastiche.
 
-Il progetto, dal titolo *"Radici di Sapere, Ali di Uguaglianza: dove l’istruzione mette radici, la parità prende il volo"*, è stato finanziato dalla Regione Autonoma Friuli Venezia Giulia nell’ambito del Bando 2025 per la cooperazione allo sviluppo (L.R. 19/2000).
+Il progetto, dal titolo _"Radici di Sapere, Ali di Uguaglianza: dove l’istruzione mette radici, la parità prende il volo"_, è stato finanziato dalla Regione Autonoma Friuli Venezia Giulia nell’ambito del Bando 2025 per la cooperazione allo sviluppo (L.R. 19/2000).
 
 <div class="not-prose mt-6 flex flex-col items-center text-center">
   <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">Con il sostegno di:</p>

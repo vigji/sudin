@@ -1,4 +1,4 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -34,14 +34,10 @@ export const footerData = {
   links: [
     {
       title: 'Siti amici',
-      links: [
-        { text: 'Fondazione Petrucco', href: 'https://www.fondazionepetrucco.it/', target: '_blank' },
-      ],
+      links: [{ text: 'Fondazione Petrucco', href: 'https://www.fondazionepetrucco.it/', target: '_blank' }],
     },
   ],
-  secondaryLinks: [
-    { text: 'Privacy Policy', href: '#' },
-  ],
+  secondaryLinks: [{ text: 'Privacy Policy', href: '#' }],
   socialLinks: [
     { ariaLabel: 'Mail', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'YouTube', icon: 'tabler:brand-instagram', href: '#' },

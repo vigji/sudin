@@ -1,22 +1,21 @@
 {
-    "siteTitle": "Sudin",
-    "siteMotto": "Building together for South Sudan",
-    "companyName": "Associazione Sudin Onlus",
-    "companyMail": "info@sudin.org",
-    "companyAddress": "Via Torino, 77 33100 Udine",
-    "companyFiscalCode": "94100040305",
+  "siteTitle": "Sudin",
+  "siteMotto": "Building together for South Sudan",
+  "companyName": "Associazione Sudin Onlus",
+  "companyMail": "info@sudin.org",
+  "companyAddress": "Via Torino, 77 33100 Udine",
+  "companyFiscalCode": "94100040305",
 
-    "companyCC": "11193398",
-    "companyBank": "BANCA POPOLARE ETICA, filiale di Padova",
-    "companyBIC": "ABI 05018, CAB 12101, CIN J",
-    "companyIBAN": "IT 15 J 05018 12101 000011193398",
+  "companyCC": "11193398",
+  "companyBank": "BANCA POPOLARE ETICA, filiale di Padova",
+  "companyBIC": "ABI 05018, CAB 12101, CIN J",
+  "companyIBAN": "IT 15 J 05018 12101 000011193398",
 
-    "pageAbout": "Associazione",
-    "pageSchool": "La scuola",
-    "pageSustainability": "Sostenibilita",
-    "pageGallery": "Gallery",
-    "pageEvents": "Eventi",
-    "pageSupport": "Donazioni",
-    "buttonAction": "Pagina Donazioni"
-  }
-  
+  "pageAbout": "Associazione",
+  "pageSchool": "La scuola",
+  "pageSustainability": "Sostenibilita",
+  "pageGallery": "Gallery",
+  "pageEvents": "Eventi",
+  "pageSupport": "Donazioni",
+  "buttonAction": "Pagina Donazioni"
+}

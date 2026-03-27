@@ -6,11 +6,11 @@
 
 ### Commands
 
-| Command             | Action                                             |
-| :------------------ | :------------------------------------------------- |
-| `npm install`       | Installs dependencies                              |
-| `npm run dev`       | Starts local dev server at `localhost:3000`        |
-| `npm run build`     | Build your production site to `./dist/`            |
+| Command         | Action                                      |
+| :-------------- | :------------------------------------------ |
+| `npm install`   | Installs dependencies                       |
+| `npm run dev`   | Starts local dev server at `localhost:3000` |
+| `npm run build` | Build your production site to `./dist/`     |
 
 #### Deploy to production
 
@@ -33,6 +33,7 @@ npm run deploy
 This builds the site and syncs `dist/` to the server via SFTP, uploading only changed files.
 
 ## Gallery doc
+
 [React Photo Album](https://react-photo-album.com/documentation)
 
 ## Acknowledgements
