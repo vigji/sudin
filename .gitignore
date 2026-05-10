@@ -25,3 +25,6 @@ deploy.sh
 pnpm-lock.yaml
 
 .astro
+
+# Playwright MCP session artifacts
+.playwright-mcp/
