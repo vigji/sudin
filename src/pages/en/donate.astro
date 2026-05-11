@@ -1,0 +1,67 @@
+---
+import Layout from '~/layouts/ContentPageLayout.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import { t } from '~/i18n/utils';
+import { companyAddress, companyInfo } from '~/i18n/ui';
+
+const metadata = {
+  title: t('en', 'page.donate'),
+};
+---
+
+<Layout metadata={metadata} showHero={false}>
+  <h2>How you can help</h2>
+  <h3>By bank transfer</h3>
+  Via wire transfer to:
+  <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-700">
+    <p>
+      <strong>Account no.:</strong>
+      <span class="font-mono">{companyInfo.cc}</span><br />
+      <strong>Bank:</strong>
+      <span class="font-mono">{companyInfo.bank}</span><br />
+      <strong>BIC:</strong>
+      <span class="font-mono">{companyInfo.bic}</span><br />
+      <strong>IBAN:</strong>
+      <span class="font-mono">{companyInfo.iban}</span>
+    </p>
+  </div>
+
+  <h3>Online, via PayPal</h3>
+  Send your donation to <span class="font-mono bg-gray-200 dark:bg-gray-700 p-2 rounded"
+    ><strong>{companyInfo.mail}</strong></span
+  >.
+
+  <h3>5 × 1000 (Italian taxpayers)</h3>
+  Italian taxpayers can donate their "5 × 1000" share to Sudin by writing our tax identification code <span
+    class="font-mono bg-gray-200 dark:bg-gray-700 p-2 rounded"><strong>{companyInfo.fiscalCode}</strong></span
+  > in their tax return.
+
+  <h3>Tax benefits</h3>
+  Sudin is a non-profit organisation of social utility (ONLUS) under Italian law.
+
+  <strong>For individuals (Italian taxpayers)</strong>
+  You may deduct 19% of the donated amount from your gross IRPEF tax, up to a maximum donation of €2,065.83 (Art. 13-bis,
+  comma 1, letter 1-bis of D.p.r. 917/86); or deduct from your taxable IRPEF income up to 10% of your total declared income,
+  with a cap of €70,000 per year (Art. 14, comma 1 of Decree Law 35/05).
+
+  <strong>For companies (Italian taxpayers)</strong>
+  Companies may deduct from their taxable IRES income up to 10% of declared income, with a cap of €70,000 per year (Art.
+  14, comma 1 of Decree Law 35/05). Sudin is a Onlus run entirely by volunteer members who receive no compensation, so ALL
+  contributions go directly to the Ireneo Dud school.
+
+  <Features2
+    title="Contact"
+    items={[
+      {
+        title: 'E-mail',
+        description: companyInfo.mail,
+        icon: 'tabler:mail',
+      },
+      {
+        title: 'Address',
+        description: companyAddress.en,
+        icon: 'tabler:map-pin',
+      },
+    ]}
+  />
+</Layout>

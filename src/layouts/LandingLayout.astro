@@ -2,28 +2,27 @@
 import PageLayout from '~/layouts/PageLayout.astro';
 import Header from '~/components/widgets/Header.astro';
 
-import { headerData } from '~/navigation';
+import { getHeaderData } from '~/navigation';
+import { getLocaleFromUrl, t } from '~/i18n/utils';
 import type { MetaData } from '~/types';
-import strings from '~/strings.json';
 
 export interface Props {
   metadata?: MetaData;
 }
 
 const { metadata } = Astro.props;
+const locale = getLocaleFromUrl(Astro.url);
+const headerData = getHeaderData(locale);
 ---
 
 <PageLayout metadata={metadata}>
-  <!-- <Fragment slot="announcement">
-    <slot name="announcement" />
-  </Fragment> -->
   <Fragment slot="header">
     <slot name="header">
       <Header
         links={headerData?.links[2] ? [headerData.links[2]] : undefined}
         actions={[
           {
-            text: strings.buttonAction,
+            text: t(locale, 'cta.donate.button'),
             href: 'https://github.com/onwidget/astrowind',
           },
         ]}

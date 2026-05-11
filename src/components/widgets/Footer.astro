@@ -2,7 +2,8 @@
 import { Icon } from 'astro-icon/components';
 import { SITE } from 'astrowind:config';
 import { getHomePermalink } from '~/utils/permalinks';
-import strings from '~/strings.json';
+import { getLocaleFromUrl, t } from '~/i18n/utils';
+import { companyAddress, companyInfo } from '~/i18n/ui';
 
 interface Link {
   text?: string;
@@ -25,6 +26,7 @@ export interface Props {
 }
 
 const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme = 'light' } = Astro.props;
+const locale = getLocaleFromUrl(Astro.url);
 ---
 
 <footer class:list={[{ dark: theme === 'dark' }, 'relative border-t border-gray-200 dark:border-slate-800 not-prose']}>
@@ -37,9 +39,9 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
         <div class="mb-2">
           <a class="inline-block font-bold text-xl" href={getHomePermalink()}>{SITE?.name}</a>
         </div>
-        <div class="text-sm text-muted flex gap-1">Indirizzo: {strings.companyAddress}</div>
-        <div class="text-sm text-muted flex gap-1">Mail: {strings.companyMail}</div>
-        <div class="text-sm text-muted flex gap-1">CF: {strings.companyFiscalCode}</div>
+        <div class="text-sm text-muted flex gap-1">{t(locale, 'footer.address')}: {companyAddress[locale]}</div>
+        <div class="text-sm text-muted flex gap-1">{t(locale, 'footer.mail')}: {companyInfo.mail}</div>
+        <div class="text-sm text-muted flex gap-1">{t(locale, 'footer.fiscalCode')}: {companyInfo.fiscalCode}</div>
         <div class="text-sm text-muted flex gap-1">
           {
             secondaryLinks.map(({ text, href }, index) => (
