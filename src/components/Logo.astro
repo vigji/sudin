@@ -2,8 +2,7 @@
 import { SITE } from 'astrowind:config';
 ---
 
-<span
-  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
->
-  🌍 {SITE?.name}
+<span class="inline-flex items-center gap-2 whitespace-nowrap text-2xl font-bold md:text-xl" style="color:#5D829F">
+  <img src="/images/sudin-globe.png" alt="" aria-hidden="true" class="h-7 w-auto" />
+  {SITE?.name}
 </span>

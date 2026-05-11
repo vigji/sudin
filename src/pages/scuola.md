@@ -7,7 +7,8 @@ showHero: false
 ## Il progetto
 
 <figure class="not-prose float-none mx-auto mb-6 mt-2 w-full max-w-xs sm:float-right sm:ml-8 sm:mb-4 sm:w-1/3">
-  <img src="/images/scuola/africa-locator.png" alt="Mappa: Barghel nello Stato dei Laghi (Sud Sudan)" class="w-full" />
+  <img src="/images/scuola/africa-locator.png" alt="Mappa: Barghel nello Stato dei Laghi (Sud Sudan)" class="w-full dark:hidden" />
+  <img src="/images/scuola/africa-locator-dark.png" alt="Mappa: Barghel nello Stato dei Laghi (Sud Sudan)" class="hidden w-full dark:block" />
   <figcaption class="mt-2 text-center text-xs text-gray-500 dark:text-gray-400">Barghel, Contea di Cueibet, Stato dei Laghi.</figcaption>
 </figure>
 
@@ -31,7 +32,8 @@ La scuola sorge su un terreno di circa 500 ettari donato dal governo locale nel 
 </div>
 
 <figure class="not-prose mt-8">
-  <img src="/images/scuola/compound-map.png" alt="Planimetria del compound dell'IDVTC: scuola, IDF/ICOP, orti, abitazioni insegnanti, area coltivabile" class="mx-auto w-full max-w-2xl" />
+  <img src="/images/scuola/compound-map.png" alt="Planimetria del compound dell'IDVTC: scuola, IDF/ICOP, orti, abitazioni insegnanti, area coltivabile" class="mx-auto w-full max-w-2xl dark:hidden" />
+  <img src="/images/scuola/compound-map-dark.png" alt="Planimetria del compound dell'IDVTC: scuola, IDF/ICOP, orti, abitazioni insegnanti, area coltivabile" class="mx-auto hidden w-full max-w-2xl dark:block" />
   <figcaption class="mt-2 text-center text-xs text-gray-500 dark:text-gray-400">Il compound dell'IDVTC: scuola, IDF/ICOP, orti, abitazioni degli insegnanti e area coltivabile.</figcaption>
 </figure>
 
@@ -151,7 +153,7 @@ Per adeguare alle nuove necessità il centro formativo si prevede la realizzazio
 <div class="not-prose mt-6 grid grid-cols-1 gap-6 md:grid-cols-3">
   <figure class="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-800">
     <button type="button" class="plan-trigger group relative block w-full cursor-zoom-in" data-plan-src="/images/plans/dormitory.png" data-plan-title="Nuovo dormitorio" aria-label="Ingrandisci i disegni del nuovo dormitorio">
-      <img src="/images/plans/dormitory.png" alt="Disegni del nuovo dormitorio: pianta, sezione, prospetti" class="w-full transition-opacity group-hover:opacity-90" />
+      <img src="/images/plans/dormitory.png" alt="Disegni del nuovo dormitorio: pianta, sezione, prospetti" class="w-full transition-opacity group-hover:opacity-90 dark:invert" />
       <span class="pointer-events-none absolute right-2 top-2 rounded-md bg-black/60 p-1.5 text-white opacity-0 transition group-hover:opacity-100" aria-hidden="true">
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path><path d="M11 8v6"></path><path d="M8 11h6"></path></svg>
       </span>
@@ -163,7 +165,7 @@ Per adeguare alle nuove necessità il centro formativo si prevede la realizzazio
   </figure>
   <figure class="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-800">
     <button type="button" class="plan-trigger group relative block w-full cursor-zoom-in" data-plan-src="/images/plans/dining-hall.png" data-plan-title="Nuovo refettorio" aria-label="Ingrandisci i disegni del nuovo refettorio">
-      <img src="/images/plans/dining-hall.png" alt="Disegni del nuovo refettorio: pianta, sezione, prospetti" class="w-full transition-opacity group-hover:opacity-90" />
+      <img src="/images/plans/dining-hall.png" alt="Disegni del nuovo refettorio: pianta, sezione, prospetti" class="w-full transition-opacity group-hover:opacity-90 dark:invert" />
       <span class="pointer-events-none absolute right-2 top-2 rounded-md bg-black/60 p-1.5 text-white opacity-0 transition group-hover:opacity-100" aria-hidden="true">
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path><path d="M11 8v6"></path><path d="M8 11h6"></path></svg>
       </span>
@@ -175,7 +177,7 @@ Per adeguare alle nuove necessità il centro formativo si prevede la realizzazio
   </figure>
   <figure class="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-800">
     <button type="button" class="plan-trigger group relative block w-full cursor-zoom-in" data-plan-src="/images/plans/classroom.png" data-plan-title="Nuova aula" aria-label="Ingrandisci i disegni della nuova aula">
-      <img src="/images/plans/classroom.png" alt="Disegni della nuova aula: pianta, sezione, prospetti" class="w-full transition-opacity group-hover:opacity-90" />
+      <img src="/images/plans/classroom.png" alt="Disegni della nuova aula: pianta, sezione, prospetti" class="w-full transition-opacity group-hover:opacity-90 dark:invert" />
       <span class="pointer-events-none absolute right-2 top-2 rounded-md bg-black/60 p-1.5 text-white opacity-0 transition group-hover:opacity-100" aria-hidden="true">
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path><path d="M11 8v6"></path><path d="M8 11h6"></path></svg>
       </span>
@@ -195,7 +197,7 @@ Per adeguare alle nuove necessità il centro formativo si prevede la realizzazio
     </button>
   </div>
   <div class="bg-white p-4 dark:bg-gray-900">
-    <img id="plan-modal-img" src="" alt="" class="mx-auto max-h-[80vh] w-auto max-w-full" />
+    <img id="plan-modal-img" src="" alt="" class="mx-auto max-h-[80vh] w-auto max-w-full dark:invert" />
   </div>
 </dialog>
 
