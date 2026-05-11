@@ -1,6 +1,6 @@
 site:
   name: Sudin
-  site: 'https://sudin.netlify.app'
+  site: 'https://sudin.org'
   base: '/'
   trailingSlash: false
 
@@ -9,16 +9,16 @@ metadata:
   title:
     default: Sudin
     template: '%s — Sudin'
-  description: "\U0001F680 Building together for SouthSudan"
+  description: 'Sudin Onlus — building together for South Sudan'
   robots:
     index: true
     follow: true
   openGraph:
     site_name: Sudin
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/og-image.jpg'
         width: 1200
-        height: 628
+        height: 630
     type: website
   twitter:
     handle: '@sudin'
